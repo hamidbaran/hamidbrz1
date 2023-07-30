@@ -1,3 +1,8 @@
 sn://ssh?eNpjYGBgMDHVMzQ10jM0BNLG28WAIkX5-V8YgbRHYm5mSlJiUWKeobG58cJGkJjfGSDBAABOZwyL //nl
-sn://ssh?eNpjYGBgMDHVMzSsn://ssh?eNpjYGBgMDHVMwRicyC5VQzIL8rP_8IIpD0SczNTkhKLEvMMjc2NFzaCxEKLHwJJBgBJ1wy7  //usa
-http://45.145.7.145:8000/sub/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJtYTd0YSIsImFjY2VzcyI6InN1YnNjcmlwdGlvbiIsImlhdCI6MTY5MDc0NjgwNn0.0WAjG3ToT4yHT0tsUrmfzQhtCx1BBsdnjiWaK1jXFuY
+sn://ssh?eNpjYGBgMDHVMwRicyC5VQzIL8rP_8IIpD0SczNTkhKLEvMMjc2NFzaCxEKLHwJJBgBJ1wy7 //usa
+vmess://eyJhZGQiOiAiNDUuMTQ1LjcuMTQ1IiwgImFpZCI6ICIwIiwgImhvc3QiOiAiZ29vZ2xlLmNvbSIsICJpZCI6ICJhODBjNWI0ZS01OTRjLTQwY2ItOGRiZC0yMTA4OTRhMTMwZjgiLCAibmV0IjogInRjcCIsICJwYXRoIjogIi8iLCAicG9ydCI6IDgwODEsICJwcyI6ICJcdWQ4M2RcdWRlODAgTWFyeiAobWE3dGEpIFtWTWVzcyAtIHRjcF0iLCAic2N5IjogImF1dG8iLCAidGxzIjogIm5vbmUiLCAidHlwZSI6ICJodHRwIiwgInYiOiAiMiJ9
+vmess://eyJhZGQiOiAiNDUuMTQ1LjcuMTQ1IiwgImFpZCI6ICIwIiwgImhvc3QiOiAiZ29vZ2xlLmNvbSIsICJpZCI6ICJhODBjNWI0ZS01OTRjLTQwY2ItOGRiZC0yMTA4OTRhMTMwZjgiLCAibmV0IjogIndzIiwgInBhdGgiOiAiLyIsICJwb3J0IjogODA4MCwgInBzIjogIlx1ZDgzZFx1ZGU4MCBNYXJ6IChtYTd0YSkgW1ZNZXNzIC0gd3NdIiwgInNjeSI6ICJhdXRvIiwgInRscyI6ICJub25lIiwgInR5cGUiOiAiIiwgInYiOiAiMiJ9
+vless://4223e631-5924-433d-8c65-46c0e955e3ce@45.145.7.145:8443?security=reality&type=tcp&host=&headerType=&path=&sni=cdn.discordapp.com&fp=chrome&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&sid=&spx=#%F0%9F%9A%80%20Marz%20%28ma7ta%29%20%5BVLESS%20-%20tcp%5D
+vless://4223e631-5924-433d-8c65-46c0e955e3ce@45.145.7.145:2053?security=reality&type=grpc&host=&headerType=&serviceName=xyz&sni=discordapp.com&fp=chrome&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&sid=&spx=#%F0%9F%9A%80%20Marz%20%28ma7ta%29%20%5BVLESS%20-%20grpc%5D
+trojan://LgqfSdNt8WIM2GCKVvFuVg@45.145.7.145:2083?security=tls&type=ws&host=&headerType=&path=&sni=983cf1820da7db34.gstatic.com&fp=&alpn=#%F0%9F%9A%80%20Marz%20%28ma7ta%29%20%5BTrojan%20-%20ws%5D
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp4UzNQU2lEcVo0OFBhaVV4bzlNLUd3@45.145.7.145:1080#%F0%9F%9A%80%20Marz%20%28ma7ta%29%20%5BShadowsocks%20-%20tcp%5D
