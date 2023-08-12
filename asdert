@@ -13,5 +13,3 @@ vless://56c30185-5f85-4191-9e4b-ac7a3ee7876f@45.11.93.109:8443?security=reality&
 vless://56c30185-5f85-4191-9e4b-ac7a3ee7876f@45.11.93.109:2053?security=reality&type=grpc&host=&headerType=&serviceName=xyz&sni=cdn.discordapp.com&fp=chrome&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&sid=&spx=#%F0%9F%9A%80%20Marz%20%28Dallas%29%20%5BVLESS%20-%20grpc%5D
 trojan://Erq9Iy2UJNa9M4CJyiFxHQ@45.11.93.109:2083?security=tls&type=ws&host=&headerType=&path=&sni=50124dd5fc82fac6.gstatic.com&fp=&alpn=#%F0%9F%9A%80%20Marz%20%28Dallas%29%20%5BTrojan%20-%20ws%5D
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo1Ylh1Z1J4RzdWYnFFbnppVWlEVEVR@45.11.93.109:1080#%F0%9F%9A%80%20Marz%20%28Dallas%29%20%5BShadowsocks%20-%20tcp%5D
-//reallity
-vless://c3b92546-e037-4614-ae15-0c5bfdbefb3d@45.152.115.90:58081?security=reality&flow=xtls-rprx-vision&fp=chrome&pbk=aSwdXnwWltsMy4eTtIIxvffs9a7Px2YoWvfnSxgypmc&sni=learn.microsoft.com&spx=%2F&sid=2b3a#VLESS-XTLS-uTLS-REALITY
