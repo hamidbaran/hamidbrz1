@@ -13,3 +13,9 @@ vless://56c30185-5f85-4191-9e4b-ac7a3ee7876f@45.11.93.109:8443?security=reality&
 vless://56c30185-5f85-4191-9e4b-ac7a3ee7876f@45.11.93.109:2053?security=reality&type=grpc&host=&headerType=&serviceName=xyz&sni=cdn.discordapp.com&fp=chrome&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&sid=&spx=#%F0%9F%9A%80%20Marz%20%28Dallas%29%20%5BVLESS%20-%20grpc%5D
 trojan://Erq9Iy2UJNa9M4CJyiFxHQ@45.11.93.109:2083?security=tls&type=ws&host=&headerType=&path=&sni=50124dd5fc82fac6.gstatic.com&fp=&alpn=#%F0%9F%9A%80%20Marz%20%28Dallas%29%20%5BTrojan%20-%20ws%5D
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo1Ylh1Z1J4RzdWYnFFbnppVWlEVEVR@45.11.93.109:1080#%F0%9F%9A%80%20Marz%20%28Dallas%29%20%5BShadowsocks%20-%20tcp%5D
+//natvps
+vless://3c5ff77a-c556-491c-82f3-eaed220f8fc1@185.244.30.43:8411?security=reality&flow=xtls-rprx-vision&fp=chrome&pbk=YiKGZbrFYIp2Ss7paGZoE8Btz5AzOo_9bky54yCAR3k&sni=www.learn.microsoft.com&spx=%2F#VLESS-XTLS-uTLS-REALITY
+vless://3c5ff77a-c556-491c-82f3-eaed220f8fc1@185.244.30.43:8411?security=reality&flow=xtls-rprx-vision&fp=chrome&pbk=YiKGZbrFYIp2Ss7paGZoE8Btz5AzOo_9bky54yCAR3k&sni=www.learn.microsoft.com&spx=%2F&sid=8b#VLESS-XTLS-uTLS-REALITY
+vless://3c5ff77a-c556-491c-82f3-eaed220f8fc1@185.244.30.43:8411?security=reality&flow=xtls-rprx-vision&fp=chrome&pbk=YiKGZbrFYIp2Ss7paGZoE8Btz5AzOo_9bky54yCAR3k&sni=www.learn.microsoft.com&spx=%2F&sid=3dc8#VLESS-XTLS-uTLS-REALITY
+vless://3c5ff77a-c556-491c-82f3-eaed220f8fc1@185.244.30.43:8411?security=reality&flow=xtls-rprx-vision&fp=chrome&pbk=YiKGZbrFYIp2Ss7paGZoE8Btz5AzOo_9bky54yCAR3k&sni=www.learn.microsoft.com&spx=%2F&sid=83f2e80c#VLESS-XTLS-uTLS-REALITY
+vless://3c5ff77a-c556-491c-82f3-eaed220f8fc1@185.244.30.43:8411?security=reality&flow=xtls-rprx-vision&fp=chrome&pbk=YiKGZbrFYIp2Ss7paGZoE8Btz5AzOo_9bky54yCAR3k&sni=www.learn.microsoft.com&spx=%2F&sid=87a0bdefdac81499#VLESS-XTLS-uTLS-REALITY
