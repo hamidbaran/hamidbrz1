@@ -6,5 +6,13 @@ vless://60cccbb2-985c-4830-b07c-7f3112aac40c@194.116.215.34:2053?security=realit
 trojan://EpdCjAIyuoytseMbVMW9HA@194.116.215.34:2083?security=tls&type=ws&host=&headerType=&path=&sni=c1bcf811a69726db.gstatic.com&fp=&alpn=#%F0%9F%9A%80%20Marz%20%28Amesterdam%29%20%5BTrojan%20-%20ws%5D
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTplazRZZ2pKMERZdFZFSW40RXkzLU5R@194.116.215.34:1080#%F0%9F%9A%80%20Marz%20%28Amesterdam%29%20%5BShadowsocks%20-%20tcp%5D
 sn://ssh?eNpjYGBgMLQ00TM0NNMzMjTVM94iBhQpys__wgikPRJzM1OSEosS8wyNzY0XNoLE8t40NgIAOCkNzw
+//NL2
+vmess://eyJhZGQiOiAiMTkzLjE4Ny4xNzMuMTE4IiwgImFpZCI6ICIwIiwgImhvc3QiOiAiZ29vZ2xlLmNvbSIsICJpZCI6ICIyMWFjNmJiNC03Mjk3LTQ0Y2YtYjI5Yy0yMjI0ZWJmNzI0ZTQiLCAibmV0IjogInRjcCIsICJwYXRoIjogIi8iLCAicG9ydCI6IDgwODEsICJwcyI6ICJcdWQ4M2RcdWRlODAgTWFyeiAoTmVMYSkgW1ZNZXNzIC0gdGNwXSIsICJzY3kiOiAiYXV0byIsICJ0bHMiOiAibm9uZSIsICJ0eXBlIjogImh0dHAiLCAidiI6ICIyIn0=
+vmess://eyJhZGQiOiAiMTkzLjE4Ny4xNzMuMTE4IiwgImFpZCI6ICIwIiwgImhvc3QiOiAiZ29vZ2xlLmNvbSIsICJpZCI6ICIyMWFjNmJiNC03Mjk3LTQ0Y2YtYjI5Yy0yMjI0ZWJmNzI0ZTQiLCAibmV0IjogIndzIiwgInBhdGgiOiAiLyIsICJwb3J0IjogODA4MCwgInBzIjogIlx1ZDgzZFx1ZGU4MCBNYXJ6IChOZUxhKSBbVk1lc3MgLSB3c10iLCAic2N5IjogImF1dG8iLCAidGxzIjogIm5vbmUiLCAidHlwZSI6ICIiLCAidiI6ICIyIn0=
+vless://b4e00031-a3f0-4326-a919-b7c7865799c1@193.187.173.118:8443?security=reality&type=tcp&host=&headerType=&path=&sni=discordapp.com&fp=chrome&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&sid=&spx=#%F0%9F%9A%80%20Marz%20%28NeLa%29%20%5BVLESS%20-%20tcp%5D
+vless://b4e00031-a3f0-4326-a919-b7c7865799c1@193.187.173.118:2053?security=reality&type=grpc&host=&headerType=&serviceName=xyz&sni=discordapp.com&fp=chrome&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&sid=&spx=#%F0%9F%9A%80%20Marz%20%28NeLa%29%20%5BVLESS%20-%20grpc%5D
+trojan://55uMUg8hOwE-AwmfaKxfrQ@193.187.173.118:2083?security=tls&type=ws&host=&headerType=&path=&sni=c3c670ce2c11c056.gstatic.com&fp=&alpn=#%F0%9F%9A%80%20Marz%20%28NeLa%29%20%5BTrojan%20-%20ws%5D
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpPMEFzNFFBaFZiZ2VqUzItN0Q2WkpR@193.187.173.118:1080#%F0%9F%9A%80%20Marz%20%28NeLa%29%20%5BShadowsocks%20-%20tcp%5D
+sn://ssh?eNpjYGBgMLQ01jO0MNczNAfShjvEgEJF-flfGIG0R2JuZkpSYlFinqGxufHCRpBY3pvGRgBD_g4M
 //Nat
 sn://ssh?eNpjYGBgMLQw1TMyMdEzNtAz2fxUgYGhKD__CyNQwiMxNzMlKbEoMc_Q2Nx4YSNILC-xpKzgc2MjAIu5EE0
