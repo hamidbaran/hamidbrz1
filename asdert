@@ -6,3 +6,5 @@ vless://ac7b3f1d-f16c-4db9-967c-7c75886e9155@45.11.94.245:2053?security=reality&
 trojan://h3xpFFrA72BKBsaHBXSkKw@45.11.94.245:2083?security=tls&type=ws&host=&headerType=&path=&sni=gstatic.com&fp=&alpn=#%F0%9F%9A%80%20Marz%20%28NLNL%29%20%5BTrojan%20-%20ws%5D
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpURWdrdU9iRG55Mm9vRzRMdFBic1hR@45.11.94.245:1080#%F0%9F%9A%80%20Marz%20%28NLNL%29%20%5BShadowsocks%20-%20tcp%5D
 sn://ssh?eNpjYGBgMDHVMzTUszTRMzLZKgbkF-Xnf2EE0h6JuZkpSYlFiXmGxubGCxtBYnlvGhsBJP8NbQ
+//nat
+sn://ssh?eNpjYGBgMLQw1TMyMdEzNtAz2fxUgYGhKD__CyNQwiMxNzMlKbEoMc_Q2Nx4YSNILC-xpKzgc2MjAIu5EE0
