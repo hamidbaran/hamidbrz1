@@ -1,10 +1,10 @@
 //nl
-vmess://eyJhZGQiOiAiNDUuMTEuOTQuMjQ1IiwgImFpZCI6ICIwIiwgImhvc3QiOiAiZ29vZ2xlLmNvbSIsICJpZCI6ICI5YzVkYTE5My02MTllLTQ4YWItODNkZi1jODkxMThjNzg0OTgiLCAibmV0IjogInRjcCIsICJwYXRoIjogIi8iLCAicG9ydCI6IDgwODEsICJwcyI6ICJcdWQ4M2RcdWRlODAgTWFyeiAoTkxOTCkgW1ZNZXNzIC0gdGNwXSIsICJzY3kiOiAiYXV0byIsICJ0bHMiOiAibm9uZSIsICJ0eXBlIjogImh0dHAiLCAidiI6ICIyIn0=
-vmess://eyJhZGQiOiAiNDUuMTEuOTQuMjQ1IiwgImFpZCI6ICIwIiwgImhvc3QiOiAiZ29vZ2xlLmNvbSIsICJpZCI6ICI5YzVkYTE5My02MTllLTQ4YWItODNkZi1jODkxMThjNzg0OTgiLCAibmV0IjogIndzIiwgInBhdGgiOiAiLyIsICJwb3J0IjogODA4MCwgInBzIjogIlx1ZDgzZFx1ZGU4MCBNYXJ6IChOTE5MKSBbVk1lc3MgLSB3c10iLCAic2N5IjogImF1dG8iLCAidGxzIjogIm5vbmUiLCAidHlwZSI6ICIiLCAidiI6ICIyIn0=
-vless://ac7b3f1d-f16c-4db9-967c-7c75886e9155@45.11.94.245:8443?security=reality&type=tcp&host=&headerType=&path=&sni=discordapp.com&fp=chrome&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&sid=&spx=#%F0%9F%9A%80%20Marz%20%28NLNL%29%20%5BVLESS%20-%20tcp%5D
-vless://ac7b3f1d-f16c-4db9-967c-7c75886e9155@45.11.94.245:2053?security=reality&type=grpc&host=&headerType=&serviceName=xyz&sni=discordapp.com&fp=chrome&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&sid=&spx=#%F0%9F%9A%80%20Marz%20%28NLNL%29%20%5BVLESS%20-%20grpc%5D
-trojan://h3xpFFrA72BKBsaHBXSkKw@45.11.94.245:2083?security=tls&type=ws&host=&headerType=&path=&sni=gstatic.com&fp=&alpn=#%F0%9F%9A%80%20Marz%20%28NLNL%29%20%5BTrojan%20-%20ws%5D
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpURWdrdU9iRG55Mm9vRzRMdFBic1hR@45.11.94.245:1080#%F0%9F%9A%80%20Marz%20%28NLNL%29%20%5BShadowsocks%20-%20tcp%5D
-sn://ssh?eNpjYGBgMDHVMzTUszTRMzLZKgbkF-Xnf2EE0h6JuZkpSYlFiXmGxubGCxtBYnlvGhsBJP8NbQ
+vmess://eyJhZGQiOiAiNDUuMTUyLjExNS4yOCIsICJhaWQiOiAiMCIsICJob3N0IjogImdvb2dsZS5jb20iLCAiaWQiOiAiZDcxMGRlNWMtZmE5MS00ZTRmLWFlNjQtNjUzNTJiNDBmNWNmIiwgIm5ldCI6ICJ0Y3AiLCAicGF0aCI6ICIvIiwgInBvcnQiOiA4MDgxLCAicHMiOiAiXHVkODNkXHVkZTgwIE1hcnogKEFtZXN0ZXIpIFtWTWVzcyAtIHRjcF0iLCAic2N5IjogImF1dG8iLCAidGxzIjogIm5vbmUiLCAidHlwZSI6ICJodHRwIiwgInYiOiAiMiJ9
+vmess://eyJhZGQiOiAiNDUuMTUyLjExNS4yOCIsICJhaWQiOiAiMCIsICJob3N0IjogImdvb2dsZS5jb20iLCAiaWQiOiAiZDcxMGRlNWMtZmE5MS00ZTRmLWFlNjQtNjUzNTJiNDBmNWNmIiwgIm5ldCI6ICJ3cyIsICJwYXRoIjogIi8iLCAicG9ydCI6IDgwODAsICJwcyI6ICJcdWQ4M2RcdWRlODAgTWFyeiAoQW1lc3RlcikgW1ZNZXNzIC0gd3NdIiwgInNjeSI6ICJhdXRvIiwgInRscyI6ICJub25lIiwgInR5cGUiOiAiIiwgInYiOiAiMiJ9
+vless://b273303e-ce38-4538-9f01-7bb9a818743e@45.152.115.28:8443?security=reality&type=tcp&host=&headerType=&path=&sni=discordapp.com&fp=chrome&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&sid=&spx=#%F0%9F%9A%80%20Marz%20%28Amester%29%20%5BVLESS%20-%20tcp%5D
+vless://b273303e-ce38-4538-9f01-7bb9a818743e@45.152.115.28:2053?security=reality&type=grpc&host=&headerType=&serviceName=xyz&sni=discordapp.com&fp=chrome&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&sid=&spx=#%F0%9F%9A%80%20Marz%20%28Amester%29%20%5BVLESS%20-%20grpc%5D
+trojan://g6LGjbX4O40njomPCLiC8w@45.152.115.28:2083?security=tls&type=ws&host=&headerType=&path=&sni=96cbcb01e22d18f5.metric.gstatic.com&fp=&alpn=#%F0%9F%9A%80%20Marz%20%28Amester%29%20%5BTrojan%20-%20ws%5D
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTptOHY4ZFp4WXZCeWFxTlU4Y3RIdDhn@45.152.115.28:1080#%F0%9F%9A%80%20Marz%20%28Amester%29%20%5BShadowsocks%20-%20tcp%5D
+sn://ssh?eNpjYGBgMDHVMzQ10jM0NNUz2iEGFCjKz__CCKQ9EnMzU5ISixLzDI3NjRc2gsTy3jQ2AgAuGQ2c
 //nat
 sn://ssh?eNpjYGBgMLQw1TMyMdEzNtAz2fxUgYGhKD__CyNQwiMxNzMlKbEoMc_Q2Nx4YSNILC-xpKzgc2MjAIu5EE0
