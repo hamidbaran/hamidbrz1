@@ -4,3 +4,5 @@ tuic://91ae49de-d9a5-4446-a548-63d5e37c879a:a9e056fbc3acc156@193.187.172.197:808
 vless://1bada060-7d8e-44ff-a5cd-bb5761f9fa4b@193.187.172.197:2456?security=reality&encryption=none&alpn=h2,http/1.1&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=www.google.com&pbk=O-t3a_0u47-235JNHhgeWCSnm-Dic3A2J5Y0YmpBNHY&sid=56eb8f921727950e#RealityEZPZ
 //nat
 sn://ssh?eNpjYGBgMLQw1TMyMdEzNtAz2fxUgYGhKD__CyNQwiMxNzMlKbEoMc_Q2Nx4YSNILC-xpKzgc2MjAIu5EE0
+vless://70954305-c43d-4b65-aab2-1016e9715654@[2a03:cfc0:803f:b5e7:edd9::1]:443?security=reality&encryption=none&alpn=h2,http/1.1&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=www.google.com&pbk=CSIKDbAvT_pAMXjeFkgaKDpDSeUNZUhSCaz2q0gekTY&sid=701c9f79fa27ded5#RealityEZPZ-ipv6
+
