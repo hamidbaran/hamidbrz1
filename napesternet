@@ -98,18 +98,18 @@
       "default": "auto",
       "outbounds": [
         "auto",
-        "vless-usa",
-        "vmess-usa",
-        "hy2-usa",
-        "tuic5-usa"
+        "vless-ma7ta.online",
+        "vmess-ma7ta.online",
+        "hy2-ma7ta.online",
+        "tuic5-ma7ta.online"
       ]
     },
     {
       "type": "vless",
-      "tag": "vless-usa",
-      "server": "193.43.72.228",
-      "server_port": 7867,
-      "uuid": "25c38d0e-f091-481e-987c-ff970fd7e8b2",
+      "tag": "vless-ma7ta.online",
+      "server": "192.3.239.6",
+      "server_port": 5019,
+      "uuid": "f0346090-f33f-406b-9f5d-b1cbfe76e2e6",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
@@ -120,15 +120,15 @@
         },
       "reality": {
           "enabled": true,
-          "public_key": "vDFNVKLPe-gjTD8NN3Aq1BYk_B-6bd9R_ecXLZ1C010",
-          "short_id": "a097c889"
+          "public_key": "6HBNxMZrpUqImx7NrPuskwrPE4NHRWNqZ2S8W4XuGiY",
+          "short_id": "2ef3ca98"
         }
       }
     },
 {
-            "server": "193.43.72.228",
-            "server_port": 8080,
-            "tag": "vmess-usa",
+            "server": "192.3.239.6",
+            "server_port": 2095,
+            "tag": "vmess-ma7ta.online",
             "tls": {
                 "enabled": false,
                 "server_name": "www.bing.com",
@@ -144,19 +144,19 @@
                         "www.bing.com"
                     ]
                 },
-                "path": "25c38d0e-f091-481e-987c-ff970fd7e8b2-vm",
+                "path": "f0346090-f33f-406b-9f5d-b1cbfe76e2e6-vm",
                 "type": "ws"
             },
             "type": "vmess",
             "security": "auto",
-            "uuid": "25c38d0e-f091-481e-987c-ff970fd7e8b2"
+            "uuid": "f0346090-f33f-406b-9f5d-b1cbfe76e2e6"
         },
     {
         "type": "hysteria2",
-        "tag": "hy2-usa",
-        "server": "193.43.72.228",
-        "server_port": 13540,
-        "password": "25c38d0e-f091-481e-987c-ff970fd7e8b2",
+        "tag": "hy2-ma7ta.online",
+        "server": "192.3.239.6",
+        "server_port": 37779,
+        "password": "f0346090-f33f-406b-9f5d-b1cbfe76e2e6",
         "tls": {
             "enabled": true,
             "server_name": "www.bing.com",
@@ -168,11 +168,11 @@
     },
         {
             "type":"tuic",
-            "tag": "tuic5-usa",
-            "server": "193.43.72.228",
-            "server_port": 57885,
-            "uuid": "25c38d0e-f091-481e-987c-ff970fd7e8b2",
-            "password": "25c38d0e-f091-481e-987c-ff970fd7e8b2",
+            "tag": "tuic5-ma7ta.online",
+            "server": "192.3.239.6",
+            "server_port": 52368,
+            "uuid": "f0346090-f33f-406b-9f5d-b1cbfe76e2e6",
+            "password": "f0346090-f33f-406b-9f5d-b1cbfe76e2e6",
             "congestion_control": "bbr",
             "udp_relay_mode": "native",
             "udp_over_stream": false,
@@ -203,10 +203,10 @@
       "tag": "auto",
       "type": "urltest",
       "outbounds": [
-        "vless-usa",
-        "vmess-usa",
-        "hy2-usa",
-        "tuic5-usa"
+        "vless-ma7ta.online",
+        "vmess-ma7ta.online",
+        "hy2-ma7ta.online",
+        "tuic5-ma7ta.online"
       ],
       "url": "https://cp.cloudflare.com/generate_204",
       "interval": "1m",
