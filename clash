@@ -1,0 +1,115 @@
+port: 7890
+allow-lan: true
+mode: rule
+log-level: info
+unified-delay: true
+global-client-fingerprint: chrome
+dns:
+  enable: true
+  listen: :53
+  ipv6: true
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  default-nameserver:
+    - 223.5.5.5
+    - 8.8.8.8
+  nameserver:
+    - https://dns.alidns.com/dns-query
+    - https://doh.pub/dns-query
+  fallback:
+    - https://1.0.0.1/dns-query
+    - tls://dns.google
+  fallback-filter:
+    geoip: true
+    geoip-code: CN
+    ipcidr:
+      - 240.0.0.0/4
+proxies:
+- name: vless-reality-vision节点
+  type: vless
+  server: 192.3.239.6
+  port: 5019
+  uuid: f0346090-f33f-406b-9f5d-b1cbfe76e2e6
+  network: tcp
+  udp: true
+  tls: true
+  flow: xtls-rprx-vision
+  servername: www.yahoo.com
+  reality-opts:
+    public-key: 6HBNxMZrpUqImx7NrPuskwrPE4NHRWNqZ2S8W4XuGiY
+    short-id: 2ef3ca98
+  client-fingerprint: chrome
+- name: vmess-ws节点
+  type: vmess
+  server: 192.3.239.6
+  port: 2095
+  uuid: f0346090-f33f-406b-9f5d-b1cbfe76e2e6
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: www.bing.com
+  ws-opts:
+    path: "f0346090-f33f-406b-9f5d-b1cbfe76e2e6-vm"
+    headers:
+      Host: www.bing.com
+- name: hysteria2节点
+  type: hysteria2
+  server: 192.3.239.6
+  port: 37779
+  password: f0346090-f33f-406b-9f5d-b1cbfe76e2e6
+  alpn:
+    - h3
+  sni: www.bing.com
+  skip-cert-verify: true
+  fast-open: true
+- name: tuic5节点
+  server: 192.3.239.6
+  port: 52368
+  type: tuic
+  uuid: f0346090-f33f-406b-9f5d-b1cbfe76e2e6
+  password: f0346090-f33f-406b-9f5d-b1cbfe76e2e6
+  alpn: [h3]
+  disable-sni: true
+  reduce-rtt: true
+  udp-relay-mode: native
+  congestion-controller: bbr
+  sni: www.bing.com
+  skip-cert-verify: true
+proxy-groups:
+- name: 负载均衡
+  type: load-balance
+  url: https://cp.cloudflare.com/generate_204
+  interval: 300
+  strategy: round-robin
+  proxies:
+    - vless-reality-vision节点
+    - vmess-ws节点
+    - hysteria2节点
+    - tuic5节点
+- name: 自动选择
+  type: url-test
+  url: https://cp.cloudflare.com/generate_204
+  interval: 300
+  tolerance: 50
+  proxies:
+    - vless-reality-vision节点
+    - vmess-ws节点
+    - hysteria2节点
+    - tuic5节点
+
+- name: 🌍选择代理节点
+  type: select
+  proxies:
+    - 负载均衡
+    - 自动选择
+    - DIRECT
+    - vless-reality-vision节点
+    - vmess-ws节点
+    - hysteria2节点
+    - tuic5节点
+rules:
+  - GEOIP,LAN,DIRECT
+  - GEOIP,CN,DIRECT
+  - MATCH,🌍选择代理节点
