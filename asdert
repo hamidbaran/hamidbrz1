@@ -1,10 +1,7 @@
 #us
-
-#us
-sn://ssh?eNpjYGBgsDTVMzI00TM10jM03n5Sl4GhKD__CyNQwiMxNzMlKbEoMc_Q2Nx4YSNILC-xpKzgc2MjAIowEEM
+sn://ssh?eNpjYGBgMDHVMzQ10TPUMzTYKAbkF-Xnf2EE0h6JuZkpSYlFiXmGxubGCxtBYu03Ft1svbHxds-tlTeWNzYCAOquFVc
 #nl
-sn://ssh?eNpjYGBgMLQ00jMyNNAzNDPQM9ohBhQpys__wgikPRJzM1OSEosS8wyNzY0XNoLEWm-232y52XZjfWMjAK0zEpg
-sn://ssh?eNpjYGBgMDHVMzS11DMysNAzNNwsBhQpys__wgikPRJzM1OSEosS8wyNzY0XNoLE2m8sutl6Y-PtnlsrbyxvbAQABQ4VyA
-#config
-vmess://ewogICJ2IjogIjIiLAogICJwcyI6ICJ2bWVzcy00eXhmeDRiMS12bWVzcyIsCiAgImFkZCI6ICJyZWFscG9saXMuY2ZkIiwKICAicG9ydCI6IDgwLAogICJpZCI6ICJiZGU5ZmE5NS0wN2VjLTQyMmQtODM4OS03OGZjMzE5OWNkMzUiLAogICJuZXQiOiAidGNwIiwKICAidHlwZSI6ICJodHRwIiwKICAidGxzIjogIm5vbmUiLAogICJwYXRoIjogIi92ZFk0UVYiCn0=
-trojan://BClihcVQxP@realpolis.cfd:443?type=ws&path=%2FKVShXV&host=blog.realpolis.cfd&security=tls&fp=chrome&alpn=h2%2Chttp%2F1.1&sni=blog.realpolis.cfd#trojan-f5mote80-trojan
+sn://ssh?eNpjYGBgsDTVMzI00TM10jM03n5Sl4GhKD__CyNQwiMxNzMlKbEoMc_Q2Nx4YSNILC-xpKzgc2MjAIowEEM
+#natvps
+sn://ssh?eNpjYGBgMDHVMzQ10TPUMzTYKAbkF-Xnf2EE0h6JuZkpSYlFiXmGxubGCxtBYu03Ft1svbHxds-tlTeWNzYCAOquFVc
+
