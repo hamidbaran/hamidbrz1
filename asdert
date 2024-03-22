@@ -11,3 +11,15 @@ vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogIjBhYXljM3d2YSIsDQogICJhZGQiOiAiMjMuOTQu
 vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogInVzZXIyLTNweGdvNWg0byIsDQogICJhZGQiOiAiMjMuOTQuMTE3LjEzMCIsDQogICJwb3J0IjogIjIzNDIiLA0KICAiaWQiOiAiODYyODRjMjQtYjA1NC00OTZiLWY0NzctYWY3YmI3YzhjM2RjIiwNCiAgImFpZCI6ICIwIiwNCiAgInNjeSI6ICJhdXRvIiwNCiAgIm5ldCI6ICJ3cyIsDQogICJ0eXBlIjogIm5vbmUiLA0KICAiaG9zdCI6ICIiLA0KICAicGF0aCI6ICIvIiwNCiAgInRscyI6ICJub25lIiwNCiAgInNuaSI6ICIiLA0KICAiYWxwbiI6ICIiLA0KICAiZnAiOiAiIg0KfQ==
 vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogInZwbi1mZzJ4NXhjdjQiLA0KICAiYWRkIjogIjQ1LjE1NC4xLjEwMSIsDQogICJwb3J0IjogIjM3MzYzIiwNCiAgImlkIjogIjRiMzY4NDM4LTdiYTktNDkyYy04YzlkLTVlZjRmMGRlNmVlMCIsDQogICJhaWQiOiAiMCIsDQogICJzY3kiOiAiYXV0byIsDQogICJuZXQiOiAid3MiLA0KICAidHlwZSI6ICJub25lIiwNCiAgImhvc3QiOiAiIiwNCiAgInBhdGgiOiAiLyIsDQogICJ0bHMiOiAibm9uZSIsDQogICJzbmkiOiAiIiwNCiAgImFscG4iOiAiIiwNCiAgImZwIjogIiINCn0=
 vless://2bed9105-f31a-4e6f-af93-134df1680366@surrey-deserve-gothic-promo.trycloudflare.com:2087?encryption=none&security=tls&sni=surrey-deserve-gothic-promo.trycloudflare.com&alpn=h2%2Chttp%2F1.1&fp=chrome&type=ws&host=surrey-deserve-gothic-promo.trycloudflare.com&path=%2F#reck-p5xgfxpf8-clone
+#wiregurd
+[Interface]
+PrivateKey = mGGjtND9Inn0/skfIsmJkyNDTcq/mjBYLEjuNFCiKnE=
+Address = 10.0.0.2/32
+DNS = 1.1.1.1, 9.9.9.9
+MTU = 1420
+
+# wireguard-1
+[Peer]
+PublicKey = 8XJ9FJSjUgqVARGTYKvvdfvcUGqWvNgLGEu2J5gQbSM=
+AllowedIPs = 0.0.0.0/0, ::/0
+Endpoint = 23.94.117.130:40649
