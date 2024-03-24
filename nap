@@ -1,6 +1,5 @@
-vmess://eyJhZGQiOiAiNDUuMTQ1LjcuMjIiLCAiYWlkIjogIjAiLCAiaG9zdCI6ICJnb29nbGUuY29tIiwgImlkIjogImUxYjczNGZhLThhNGUtNDYyYy1hZTNkLWEyOWM4N2UwNzMyMSIsICJuZXQiOiAidGNwIiwgInBhdGgiOiAiLyIsICJwb3J0IjogODA4MSwgInBzIjogIlx1ZDgzZFx1ZGU4MCBNYXJ6IChoYW1pZCkgW1ZNZXNzIC0gdGNwXSIsICJzY3kiOiAiYXV0byIsICJ0bHMiOiAibm9uZSIsICJ0eXBlIjogImh0dHAiLCAidiI6ICIyIn0=
-vmess://eyJhZGQiOiAiNDUuMTQ1LjcuMjIiLCAiYWlkIjogIjAiLCAiaG9zdCI6ICJnb29nbGUuY29tIiwgImlkIjogImUxYjczNGZhLThhNGUtNDYyYy1hZTNkLWEyOWM4N2UwNzMyMSIsICJuZXQiOiAid3MiLCAicGF0aCI6ICIvIiwgInBvcnQiOiA4MDgwLCAicHMiOiAiXHVkODNkXHVkZTgwIE1hcnogKGhhbWlkKSBbVk1lc3MgLSB3c10iLCAic2N5IjogImF1dG8iLCAidGxzIjogIm5vbmUiLCAidHlwZSI6ICIiLCAidiI6ICIyIn0=
-vless://63969568-a8dc-49fd-a76b-54fa8849e442@45.145.7.22:8443?security=reality&type=tcp&headerType=&path=&host=&sni=cdn.discordapp.com&fp=chrome&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&sid=&spx=#%F0%9F%9A%80%20Marz%20%28hamid%29%20%5BVLESS%20-%20tcp%5D
-vless://63969568-a8dc-49fd-a76b-54fa8849e442@45.145.7.22:2053?security=reality&type=grpc&headerType=&serviceName=xyz&host=&sni=discordapp.com&fp=chrome&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&sid=&spx=#%F0%9F%9A%80%20Marz%20%28hamid%29%20%5BVLESS%20-%20grpc%5D
-trojan://_eCw1LLuqz_aQwc5wVg9UQ@45.145.7.22:2083?security=tls&type=ws&headerType=&path=&host=&sni=2202e1790307c2b8.metric.gstatic.com&fp=&alpn=#%F0%9F%9A%80%20Marz%20%28hamid%29%20%5BTrojan%20-%20ws%5D
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpMdnUzMEFZYnhVRmFOWExJeVNmUDBn@45.145.7.22:1080#%F0%9F%9A%80%20Marz%20%28hamid%29%20%5BShadowsocks%20-%20tcp%5D
+init_modules_watch_stub();
+var defaultProviders = [
+  "https://raw.githubusercontent.com/sashalsk/V2Ray/main/V2Config_64base",
+  "https://raw.githubusercontent.com/hamidbaran/hamidbrz1/main/asdert"
+];
