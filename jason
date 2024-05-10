@@ -1,4 +1,5 @@
 {
+  "remarks": "5.10.24 canada",
   "log": {
     "access": "",
     "error": "",
@@ -47,15 +48,15 @@
   "outbounds": [
     {
       "tag": "proxy",
-      "protocol": "vless",
+      "protocol": "vmess",
       "settings": {
         "vnext": [
           {
-            "address": "45.154.1.101",
-            "port": 36108,
+            "address": "www.speedtest.net",
+            "port": 443,
             "users": [
               {
-                "id": "40e767a0-9b29-4137-d015-56d19de25e79",
+                "id": "f5998f82-c0a1-499a-b724-465aedb64dc2",
                 "alterId": 0,
                 "email": "t@t.tt",
                 "security": "auto",
@@ -71,7 +72,7 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "Ab.ghoLLe.oNLInE",
+          "serverName": "Rod-HEaTeR-onlINE-aPpreciAtE.tRycLOudflARe.COM",
           "alpn": [
             "h2",
             "http/1.1"
@@ -82,7 +83,7 @@
         "wsSettings": {
           "path": "/",
           "headers": {
-            "Host": "Ab.ghoLLe.oNLInE"
+            "Host": "Rod-HEaTeR-onlINE-aPpreciAtE.tRycLOudflARe.COM"
           }
         },
         "sockopt": {
@@ -135,27 +136,6 @@
           "api"
         ],
         "outboundTag": "api",
-        "enabled": true
-      },
-      {
-        "id": "5465425548310166497",
-        "type": "field",
-        "outboundTag": "direct",
-        "domain": [
-          "domain:ir",
-          "geosite:cn"
-        ],
-        "enabled": true
-      },
-      {
-        "id": "5425034033205580637",
-        "type": "field",
-        "outboundTag": "direct",
-        "ip": [
-          "geoip:private",
-          "geoip:cn",
-          "geoip:ir"
-        ],
         "enabled": true
       },
       {
