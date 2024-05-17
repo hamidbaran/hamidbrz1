@@ -1,67 +1,78 @@
 {
-  "remarks": "Cfnatvpsb1r0my7sf (IRCF Fragment)",
-  "log": {
-    "access": "",
-    "error": "",
-    "loglevel": "warning"
+  "dns": {
+    "hosts": {
+      "domain:googleapis.cn": "googleapis.com"
+    },
+    "servers": [
+      "1.1.1.1",
+      {
+        "address": "223.5.5.5",
+        "domains": [
+          "geosite:cn",
+          "geosite:geolocation-cn"
+        ],
+        "expectIPs": [
+          "geoip:cn"
+        ],
+        "port": 53
+      }
+    ]
   },
   "inbounds": [
     {
-      "tag": "socks",
-      "port": 10808,
       "listen": "127.0.0.1",
+      "port": 10808,
       "protocol": "socks",
+      "settings": {
+        "auth": "noauth",
+        "udp": true,
+        "userLevel": 8
+      },
       "sniffing": {
-        "enabled": true,
         "destOverride": [
           "http",
           "tls"
         ],
+        "enabled": true,
         "routeOnly": false
       },
-      "settings": {
-        "auth": "noauth",
-        "udp": true,
-        "allowTransparent": false
-      }
+      "tag": "socks"
     },
     {
-      "tag": "http",
-      "port": 10809,
       "listen": "127.0.0.1",
+      "port": 10809,
       "protocol": "http",
-      "sniffing": {
-        "enabled": true,
-        "destOverride": [
-          "http",
-          "tls"
-        ],
-        "routeOnly": false
-      },
       "settings": {
-        "auth": "noauth",
-        "udp": true,
-        "allowTransparent": false
-      }
+        "userLevel": 8
+      },
+      "tag": "http"
     }
   ],
+  "log": {
+    "loglevel": "warning"
+  },
   "outbounds": [
     {
-      "tag": "proxy",
-      "protocol": "vless",
+      "mux": {
+        "concurrency": 1,
+        "enabled": true,
+        "xudpConcurrency": 1,
+        "xudpProxyUDP443": "reject"
+      },
+      "protocol": "vmess",
       "settings": {
         "vnext": [
           {
-            "address": "www.speedtest.net",
+            "address": "zula.ir",
             "port": 443,
             "users": [
               {
-                "id": "ffb07c3f-b670-422b-91cf-9e0f67632c07",
                 "alterId": 0,
-                "email": "t@t.tt",
-                "security": "auto",
-                "encryption": "none",
-                "flow": ""
+                "encryption": "",
+                "flow": "",
+                "id": "f149d01c-d539-4d34-c60a-49471ade8965",
+                "level": 8,
+                "security": "auto"
               }
             ]
           }
@@ -70,102 +81,141 @@
       "streamSettings": {
         "network": "ws",
         "security": "tls",
+        "sockopt": {
+          "dialerProxy": "fragment"
+        },
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "fiLENaMe-RECoMmEnded-HeaDERS-rouTInG.TrYcLOUdfLARe.COM",
           "alpn": [
             "h2",
             "http/1.1"
           ],
           "fingerprint": "chrome",
+          "serverName": "parameters-represented-wash-ef.trycloudflare.com",
           "show": false
         },
         "wsSettings": {
-          "path": "/",
           "headers": {
-            "Host": "fiLENaMe-RECoMmEnded-HeaDERS-rouTInG.TrYcLOUdfLARe.COM"
-          }
-        },
-        "sockopt": {
-          "dialerProxy": "fragment",
-          "tcpKeepAliveIdle": 100,
-          "mark": 255,
-          "tcpNoDelay": true
-        }
-      }
-    },
-    {
-      "tag": "fragment",
-      "protocol": "freedom",
-      "settings": {
-        "domainStrategy": "AsIs",
-        "fragment": {
-          "packets": "tlshello",
-          "length": "10-20",
-          "interval": "10-20"
+            "Host": "parameters-represented-wash-ef.trycloudflare.com"
+          },
+          "path": "/"
         }
       },
-      "streamSettings": {
-        "sockopt": {
-          "tcpNoDelay": true,
-          "tcpKeepAliveIdle": 100
-        }
-      }
+      "tag": "proxy"
     },
     {
-      "tag": "direct",
       "protocol": "freedom",
-      "settings": {}
+      "settings": {},
+      "tag": "direct"
     },
     {
-      "tag": "block",
       "protocol": "blackhole",
       "settings": {
         "response": {
           "type": "http"
         }
-      }
+      },
+      "tag": "block"
+    },
+    {
+      "protocol": "freedom",
+      "settings": {
+        "fragment": {
+          "interval": "10-20",
+          "length": "50-100",
+          "packets": "tlshello"
+        }
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "",
+        "sockopt": {
+          "TcpNoDelay": true,
+          "mark": 255
+        }
+      },
+      "tag": "fragment"
     }
   ],
+  "policy": {
+    "levels": {
+      "8": {
+        "connIdle": 300,
+        "downlinkOnly": 1,
+        "handshake": 4,
+        "uplinkOnly": 1
+      }
+    },
+    "system": {
+      "statsOutboundUplink": true,
+      "statsOutboundDownlink": true
+    }
+  },
+  "remarks": "FR-d4l27kjws",
   "routing": {
-    "domainStrategy": "AsIs",
+    "domainStrategy": "IPIfNonMatch",
     "rules": [
       {
-        "type": "field",
-        "inboundTag": [
-          "api"
-        ],
-        "outboundTag": "api",
-        "enabled": true
-      },
-      {
-        "id": "5465425548310166497",
-        "type": "field",
-        "outboundTag": "direct",
-        "domain": [
-          "domain:ir",
-          "geosite:cn"
-        ],
-        "enabled": true
-      },
-      {
-        "id": "5425034033205580637",
-        "type": "field",
-        "outboundTag": "direct",
         "ip": [
-          "geoip:private",
-          "geoip:cn",
+          "1.1.1.1"
+        ],
+        "outboundTag": "proxy",
+        "port": "53"
+      },
+      {
+        "ip": [
+          "223.5.5.5"
+        ],
+        "outboundTag": "direct",
+        "port": "53"
+      },
+      {
+        "domain": [
+          "domain:googleapis.cn"
+        ],
+        "outboundTag": "proxy"
+      },
+      {
+        "domain": [
+          "southxchange.com"
+        ],
+        "outboundTag": "direct"
+      },
+      {
+        "ip": [
           "geoip:ir"
         ],
-        "enabled": true
+        "outboundTag": "direct"
       },
       {
-        "id": "5627785659655799759",
-        "type": "field",
-        "port": "0-65535",
+        "ip": [
+          "geoip:private"
+        ],
+        "outboundTag": "direct"
+      },
+      {
+        "ip": [
+          "geoip:cn"
+        ],
+        "outboundTag": "direct"
+      },
+      {
+        "domain": [
+          "geosite:cn"
+        ],
+        "outboundTag": "direct"
+      },
+      {
+        "domain": [
+          "geosite:geolocation-cn"
+        ],
+        "outboundTag": "direct"
+      },
+      {
         "outboundTag": "proxy",
-        "enabled": true
+        "port": "0-65535"
       }
     ]
-  }
+  },
+  "stats": {}
 }
