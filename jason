@@ -1,5 +1,5 @@
 {
-  "remarks": "5.10.24 canada",
+  "remarks": "USwneyxnbqe (IRCF Fragment)",
   "log": {
     "access": "",
     "error": "",
@@ -56,7 +56,7 @@
             "port": 443,
             "users": [
               {
-                "id": "f5998f82-c0a1-499a-b724-465aedb64dc2",
+                "id": "b19d2ae1-c788-41d6-ea61-680fbe48c4d8",
                 "alterId": 0,
                 "email": "t@t.tt",
                 "security": "auto",
@@ -72,7 +72,7 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "Rod-HEaTeR-onlINE-aPpreciAtE.tRycLOudflARe.COM",
+          "serverName": "PaRENTal-WaNTS-MICroWAVE-CONFIguring.tRYcLOUDFLarE.Com",
           "alpn": [
             "h2",
             "http/1.1"
@@ -83,7 +83,7 @@
         "wsSettings": {
           "path": "/",
           "headers": {
-            "Host": "Rod-HEaTeR-onlINE-aPpreciAtE.tRycLOudflARe.COM"
+            "Host": "PaRENTal-WaNTS-MICroWAVE-CONFIguring.tRYcLOUDFLarE.Com"
           }
         },
         "sockopt": {
@@ -136,6 +136,27 @@
           "api"
         ],
         "outboundTag": "api",
+        "enabled": true
+      },
+      {
+        "id": "5465425548310166497",
+        "type": "field",
+        "outboundTag": "direct",
+        "domain": [
+          "domain:ir",
+          "geosite:cn"
+        ],
+        "enabled": true
+      },
+      {
+        "id": "5425034033205580637",
+        "type": "field",
+        "outboundTag": "direct",
+        "ip": [
+          "geoip:private",
+          "geoip:cn",
+          "geoip:ir"
+        ],
         "enabled": true
       },
       {
