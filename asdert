@@ -1,5 +1,5 @@
-#//US-193.187
-vmess://ewogICJ2IjogIjIiLAogICJwcyI6ICIx8J+HuvCfh7gtNmhwM3plamlmIiwKICAiYWRkIjogIjE5My40My45NC4yMSIsCiAgInBvcnQiOiA1MjI0NSwKICAiaWQiOiAiNjUxYzBhMTEtYTg5OC00YjI1LWVhMGEtNjNkNjc5MmViNTNiIiwKICAibmV0IjogInRjcCIsCiAgInR5cGUiOiAibm9uZSIsCiAgInRscyI6ICJub25lIgp9
-vless://48f0c377-abba-4f28-f35b-7bfac64e5290@193.43.94.21:53107?type=tcp&security=none#2%F0%9F%87%BA%F0%9F%87%B8-qc01lokjt
-trojan://0I75QFqBgb@193.43.94.21:25205?type=tcp&security=tls&fp=&alpn=h2%2Chttp%2F1.1#3%F0%9F%87%BA%F0%9F%87%B8-hoznuav62
-vless://ad55d74a-ec1a-4773-eae7-bbb02644b87a@193.43.94.21:45816?type=ws&path=%2F&host=&security=none#4%F0%9F%87%BA%F0%9F%87%B8-9pxa1fngg
+#//US-23.94.117
+vmess://ewogICJ2IjogIjIiLAogICJwcyI6ICIx8J+HuvCfh7gtazl2cWJhd2t0IiwKICAiYWRkIjogIjIzLjk0LjExNy4xMzAiLAogICJwb3J0IjogMjEwMzcsCiAgImlkIjogIjJkZTgwY2FmLWY1ZjktNGQ4NC1kNjlhLWVlZDI4YTFiOTA1ZiIsCiAgIm5ldCI6ICJ0Y3AiLAogICJ0eXBlIjogIm5vbmUiLAogICJ0bHMiOiAibm9uZSIKfQ==
+vless://31c6b383-bb22-4ba5-d8c0-92fece758c14@23.94.117.130:55129?type=ws&path=%2F&security=none#2%F0%9F%87%BA%F0%9F%87%B8-shugo1wek
+
+
