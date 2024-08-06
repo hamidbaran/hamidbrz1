@@ -1,10 +1,7 @@
 #//US-23.94.117
 vless://31c6b383-bb22-4ba5-d8c0-92fece758c14@23.94.117.130:55129?type=ws&path=%2F&security=none#2%F0%9F%87%BA%F0%9F%87%B8-shugo1wek
 vmess://eyJhZGQiOiIxOTMuNDMuOTQuOTkiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6IiIsImlkIjoiMTFiODMyYTctMmVhMS00ZjkwLTliOWQtNThkNGJjZDJmZDdmIiwibmV0IjoiZ3JwYyIsInBhdGgiOiIiLCJwb3J0IjoiMzcyMjEiLCJwcyI6IjQ0aXozeDE1MyIsInNjeSI6ImF1dG8iLCJzbmkiOiIiLCJ0bHMiOiJub25lIiwidHlwZSI6Imd1biIsInYiOiIyIn0=
-# FL
-vmess://ewogICJ2IjogMiwKICAiYWRkIjogIjE4OC4xMzAuMTU0LjgwIiwKICAiYWlkIjogMCwKICAiaWQiOiAiOTVhMTI2MjMtY2YyMC00NzhlLWJiNzQtNzAzYTg2YWEwNzY5IiwKICAibmV0IjogInRjcCIsCiAgInBvcnQiOiAyNzEzMCwKICAicHMiOiAidm1lc3MtMjcxMzAiLAogICJ0bHMiOiAibm9uZSIKfQ==
-vless://95a12623-cf20-478e-bb74-703a86aa0769@188.130.154.80:57984?type=tcp#vless-57984
-vmess://ewogICJ2IjogMiwKICAiYWRkIjogIjE4OC4xMzAuMTU0LjgwIiwKICAiYWlkIjogMCwKICAiaWQiOiAiOTVhMTI2MjMtY2YyMC00NzhlLWJiNzQtNzAzYTg2YWEwNzY5IiwKICAibmV0IjogIndzIiwKICAicGF0aCI6ICIvIiwKICAicG9ydCI6IDI2NjcxLAogICJwcyI6ICJ2bWVzcy0yNjY3MSIsCiAgInRscyI6ICJub25lIgp9
+
 #US
 hysteria2://tVCBnDIKE6@104.168.59.56:47771?obfs=salamander&obfs-password=fvferc4r34dssdfds3&insecure=1#%F0%9F%87%BA%F0%9F%87%B8hysteria2
 hysteria2://tVCBnDIKE6@104.168.59.56:39055?obfs=salamander&obfs-password=dserf4331fkxdchkq&insecure=1#%F0%9F%87%BA%F0%9F%87%B8hysteria2%2BECH
