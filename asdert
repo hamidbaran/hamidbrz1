@@ -3,4 +3,6 @@ vless://60894de5-1663-476a-bc5a-9f24063ee40e@46.8.228.83:52364/?type=tcp&encrypt
 tuic://60894de5-1663-476a-bc5a-9f24063ee40e:60894de5-1663-476a-bc5a-9f24063ee40e@fin.ma7ta.online:57105/?congestion_control=bbr&udp_relay_mode=native&sni=fin.ma7ta.online&alpn=h3#tu5-server-ykdzjr
 hy2://60894de5-1663-476a-bc5a-9f24063ee40e@fin.ma7ta.online:34267/?sni=fin.ma7ta.online#hy2-server-ykdzjr
 vmess://eyJhZGQiOiI0Ni44LjIyOC44MyIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoiZmluLm1hN3RhLm9ubGluZSIsImlkIjoiNjA4OTRkZTUtMTY2My00NzZhLWJjNWEtOWYyNDA2M2VlNDBlIiwibmV0Ijoid3MiLCJwYXRoIjoiNjA4OTRkZTUtMTY2My00NzZhLWJjNWEtOWYyNDA2M2VlNDBlLXZtIiwicG9ydCI6IjIwOTYiLCJwcyI6InZtLXdzLXRscy1zZXJ2ZXIteWtkempyIiwic2N5IjoiYXV0byIsInNuaSI6ImZpbi5tYTd0YS5vbmxpbmUiLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoiIiwidiI6IjIifQ====
+#USA
+vless://3dee0af9-08f5-4ad0-f8a3-774fa20bd0fb@23.94.117.130:54017?type=tcp&security=none#Vls%F0%9F%87%BA%F0%9F%87%B8-xtqi10any
 
